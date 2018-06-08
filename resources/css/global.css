@@ -1,0 +1,60 @@
+
+.login-page {
+	background-color: #286230;
+}
+
+.login-box {
+	box-shadow: -4px 4px 5px #888888;
+}
+
+.login-box-msg {
+	font-size: 17px;
+	text-shadow: -1px 1px #d7bc02;
+}
+
+.content-header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+.content-header .percentage {
+	padding: 7px 0 0 0;
+	font-size: 18px;
+}
+
+.wizard-progress {
+	margin: 0 !important;
+}
+
+.wizard .uppercase input {
+	text-transform: uppercase;
+}
+
+.wizard .lowercase input {
+	text-transform: lowercase !important;
+}
+
+.form-button .btn, .wizard-footer .btn {
+	min-width: 120px;
+}
+
+.wizard sup {
+	color: #FF0000;
+}
+
+.form-value {
+	padding-top: 7px;
+}
+
+.filing-tabs li{
+	padding-left:8px;
+}
+
+.leaves-form sup, sup{
+	color:#ff0000;
+}
+
+.select2-selection--single{
+	border-radius: 0px !important;
+	height: 34px !important;
+}
+

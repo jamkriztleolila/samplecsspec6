@@ -1,0 +1,104 @@
+/* for concern legends*/
+.inactiveLink {
+   pointer-events: none;
+   cursor: default;
+}
+
+/*for inbox and draft entry*/
+
+div.forum{
+	margin: auto;
+	width: 100%;
+	padding: 1%;
+}
+
+ul .department{
+    padding-left: 20px;
+}
+
+.forum:nth-child(odd){
+	background-color: #e4e4e4;
+}
+
+/*for discussions*/
+div.concern{
+    margin: 10;
+    border: 1px solid;
+    border-color: #D8D8D8;
+    max-width: 100%;
+    min-width: 50%;
+    min-height: 30%;
+}
+
+.discussion{
+	border-top: 1px solid #a8a8a8;
+	padding: 1% 1% 3% 1%;
+}
+
+#cke_1_bottom.cke_bottom.cke_reset_all{
+  display: none;
+}
+
+.discussion:last-child{
+	border-bottom: 1px solid #a8a8a8;
+	margin: 0px;
+}
+
+.alert{
+    display: inherit;
+    color: green;
+    text-align: center;
+    font-weight: bold;
+    background-color: #d6f8d6;
+    margin-bottom: 1%;
+    padding: 0;
+}
+
+/*for discussion status*/
+
+.read{
+    box-shadow: 0px 0px 8px 0 #55e51a;
+    border-color: #99b8a56e;
+}
+
+.sent{
+    /*background-color: #e7fade;*/
+    box-shadow: 0px 0px 8px 0 #f3870d;
+    border-color: #f3870d5e;
+}
+
+/*for sender */
+
+.sender{
+	margin-left: 55px;
+	margin-top: -30px;
+}
+
+.online{
+
+}
+
+/*pagination for concern's discussions / inbox / drafts*/
+
+.pagination {
+    display: inline-block;
+    margin: 0.5%;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+    border-radius: 5px;
+}

@@ -1,0 +1,77 @@
+div[class*="col-print"]{
+	float: left;
+}
+/*
+.row .outlined:first-child{
+	border-left: 1px solid #000;
+}
+
+.outlined{
+	border-top: 1px solid #000;
+	border-right: 1px solid #000;
+	float: left;
+}
+
+.row:last-child{
+	border-bottom: 1px solid #000;
+}*/
+.outlined{
+	outline:1px solid #000;
+	float: left;
+}
+
+.row:first-child .outlined{
+	border-top: 1px solid #000;
+}
+
+.row:last-child .outlined{
+	border-bottom: 1px solid #000;
+}
+
+.row .outlined:first-child{
+	border-left: 1px solid #000;
+}
+
+.row .outlined:last-child{
+	border-right: 1px solid #000;
+}
+
+
+.col-print-1{width:64px;}
+.col-print-2{width:128px;}
+.col-print-3{width:192px;}
+.col-print-4{width:256px;}
+.col-print-5{width:320px;}
+.col-print-6{width:384px;}
+.col-print-7{width:448px;}
+.col-print-8{width:512px;}
+.col-print-9{width:576px;}
+.col-print-10{width:640px;}
+.col-print-11{width:704px;}
+.col-print-12{width:768px;}
+
+
+.profile-form{
+	width: 768px;
+	background-color: #fff;
+}
+
+.profile-form .field-header{	
+	font-size: 12px;
+    color: #1a1a1a;
+}
+
+.profile-form .field-value, .profile-form .field-section-title{
+ 	text-align: center;
+ 	font-weight: bold;
+}
+
+.field-section-title{
+	background-color: #5a5a5a;
+	color: #fff;
+}
+
+.profile-form .field-header, .profile-form .field-value, .profile-form .field-section-title{
+	padding: 5px;
+	text-transform: uppercase;
+}
